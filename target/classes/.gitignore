@@ -1,13 +1,5 @@
-/.classpath
-/.project
-/.settings/
 /META-INF/
-/configuration/
-/drivers/
-/pom.xml
-/run.bat
-/screenshots/
-/src/
+/Screenshots/
 /target/
 /test-output/
-/testng.xml
+/Configuration/

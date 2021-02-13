@@ -29,7 +29,7 @@ public class TestBase {
 	public void setUp(String Browser) {
 		
 		try {
-			fileLoc = new FileInputStream("D:\\SeleniumTraining\\com.qa.devlabs.selenium\\Configuration\\config.properties");
+			fileLoc = new FileInputStream("C:\\Users\\mandulas\\eclipse-workspace\\com.qa.devlabs.selenium\\Configuration\\config.properties");
 			prop = new Properties();
 			prop.load(fileLoc);
 		}catch(Exception e) {

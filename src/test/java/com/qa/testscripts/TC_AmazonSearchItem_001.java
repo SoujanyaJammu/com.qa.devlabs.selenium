@@ -23,7 +23,7 @@ public class TC_AmazonSearchItem_001 extends TestBase {
 	@Test
 	public void searchItem() throws IOException {
 		
-		AmazonOR.SetCategoryList("Books");
+		//AmazonOR.SetCategoryList("Books");
 		AmazonOR.setSearchInput("Da vinci code");
 		AmazonOR.setMagnifierBtn();
 		String title = Driver.getTitle();

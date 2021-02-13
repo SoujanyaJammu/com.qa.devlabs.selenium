@@ -24,7 +24,7 @@
     <div class="top-banner-root">
       <span class="top-banner-title-font">Test results</span>
       <br/>
-      <span class="top-banner-font-1">1 suite, 2 failed tests</span>
+      <span class="top-banner-font-1">1 suite, 5 failed tests</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -91,7 +91,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">5 methods, 2 failed,   3 passed</span>
+                    <span class="method-stats">5 methods, 5 failed,   </span>
                   </li>
                   <li>
                     <span class="method-list-title failed">Failed methods</span>
@@ -107,34 +107,25 @@
                       <br/>
                       <span>
                         <img width="3%" src="failed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Test_Automation" title="com.qa.testscripts.TC_AmazonSearchItemDDT_003" hash-for-method="searchItemDDT(Electronics, Mobile phones)">searchItemDDT(Electronics, Mobile phones)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                    </div> <!-- method-list-content failed suite-Test_Automation -->
-                  </li>
-                  <li>
-                    <span class="method-list-title passed">Passed methods</span>
-                    <span class="show-or-hide-methods passed">
-                      <a href="#" panel-name="suite-Test_Automation" class="hide-methods passed suite-Test_Automation"> (hide)</a> <!-- hide-methods passed suite-Test_Automation -->
-                      <a href="#" panel-name="suite-Test_Automation" class="show-methods passed suite-Test_Automation"> (show)</a> <!-- show-methods passed suite-Test_Automation -->
-                    </span>
-                    <div class="method-list-content passed suite-Test_Automation">
-                      <span>
-                        <img width="3%" src="passed.png"/>
                         <a href="#" class="method navigator-link" panel-name="suite-Test_Automation" title="com.qa.testscripts.TC_AmazonSearchItem_001" hash-for-method="searchItem">searchItem</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
-                        <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Test_Automation" title="com.qa.testscripts.TC_AmazonSearchItemDDT_003" hash-for-method="searchItemDDT(Books, Da vinci Code)">searchItemDDT(Books, Da vinci Code)</a> <!-- method navigator-link -->
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Test_Automation" title="com.qa.testscripts.TC_AmazonSearchItemDDT_003" hash-for-method="searchItemDDT(Electronics, Mobile phones)">searchItemDDT(Electronics, Mobile phones)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
-                        <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Test_Automation" title="com.qa.testscripts.TC_AmazonSearchItemDDT_003" hash-for-method="searchItemDDT(Furniture, Wooden table)">searchItemDDT(Furniture, Wooden table)</a> <!-- method navigator-link -->
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Test_Automation" title="com.qa.testscripts.TC_AmazonSearchItemDDT_003" hash-for-method="searchItemDDT(Books, Da vinci code)">searchItemDDT(Books, Da vinci code)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
-                    </div> <!-- method-list-content passed suite-Test_Automation -->
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Test_Automation" title="com.qa.testscripts.TC_AmazonSearchItemDDT_003" hash-for-method="searchItemDDT(Furniture, Wooden Tables)">searchItemDDT(Furniture, Wooden Tables)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Test_Automation -->
                   </li>
                 </ul>
               </div> <!-- suite-section-content -->
@@ -158,7 +149,42 @@
                   </a> <!-- getFooterlinks -->
                   <span class="method-name">getFooterlinks</span>
                   <div class="stack-trace">java.lang.AssertionError: expected [true] but found [false]
-	at com.qa.testscripts.TC_AmazonHomePage_002.getFooterlinks(TC_AmazonHomePage_002.java:35)
+	at com.qa.testscripts.TC_AmazonHomePage_002.getFooterlinks(TC_AmazonHomePage_002.java:38)
+... Removed 29 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Test_Automation-class-failed -->
+          <div class="suite-Test_Automation-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.qa.testscripts.TC_AmazonSearchItem_001</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="searchItem">
+                  </a> <!-- searchItem -->
+                  <span class="method-name">searchItem</span>
+                  <div class="stack-trace">org.openqa.selenium.ElementNotInteractableException: Element &lt;option&gt; could not be scrolled into view
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;HBADT4950189&apos;, ip: &apos;10.104.65.195&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_221&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 78.7.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20210204185103, moz:geckodriverVersion: 0.28.0, moz:headless: false, moz:processID: 24244, moz:profile: C:\Users\mandulas\AppData\L..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 99f81dae-d4d5-46f8-9293-dca05a4265e4
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at org.openqa.selenium.support.ui.Select.setSelected(Select.java:311)
+	at org.openqa.selenium.support.ui.Select.selectByVisibleText(Select.java:116)
+	at com.qa.pages.AmazonPages.SetCategoryList(AmazonPages.java:39)
+	at com.qa.testscripts.TC_AmazonSearchItem_001.searchItem(TC_AmazonSearchItem_001.java:26)
 ... Removed 29 stack frames
 </div> <!-- stack-trace -->
                 </div> <!-- method-content -->
@@ -177,53 +203,86 @@
                   </a> <!-- searchItemDDT(Electronics, Mobile phones) -->
                   <span class="method-name">searchItemDDT</span>
                   <span class="parameters">(Electronics, Mobile phones)</span>
-                  <div class="stack-trace">java.lang.AssertionError: expected [true] but found [false]
-	at com.qa.testscripts.TC_AmazonSearchItemDDT_003.searchItemDDT(TC_AmazonSearchItemDDT_003.java:49)
+                  <div class="stack-trace">org.openqa.selenium.ElementNotInteractableException: Element &lt;option&gt; could not be scrolled into view
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;HBADT4950189&apos;, ip: &apos;10.104.65.195&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_221&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 78.7.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20210204185103, moz:geckodriverVersion: 0.28.0, moz:headless: false, moz:processID: 24968, moz:profile: C:\Users\mandulas\AppData\L..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 5516a206-5a79-4366-83c4-368c6e12bee3
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at org.openqa.selenium.support.ui.Select.setSelected(Select.java:311)
+	at org.openqa.selenium.support.ui.Select.selectByVisibleText(Select.java:116)
+	at com.qa.pages.AmazonPages.SetCategoryList(AmazonPages.java:39)
+	at com.qa.testscripts.TC_AmazonSearchItemDDT_003.searchItemDDT(TC_AmazonSearchItemDDT_003.java:27)
+... Removed 29 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="searchItemDDT(Books, Da vinci code)">
+                  </a> <!-- searchItemDDT(Books, Da vinci code) -->
+                  <span class="method-name">searchItemDDT</span>
+                  <span class="parameters">(Books, Da vinci code)</span>
+                  <div class="stack-trace">org.openqa.selenium.ElementNotInteractableException: Element &lt;option&gt; could not be scrolled into view
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;HBADT4950189&apos;, ip: &apos;10.104.65.195&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_221&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 78.7.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20210204185103, moz:geckodriverVersion: 0.28.0, moz:headless: false, moz:processID: 24968, moz:profile: C:\Users\mandulas\AppData\L..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 5516a206-5a79-4366-83c4-368c6e12bee3
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at org.openqa.selenium.support.ui.Select.setSelected(Select.java:311)
+	at org.openqa.selenium.support.ui.Select.selectByVisibleText(Select.java:116)
+	at com.qa.pages.AmazonPages.SetCategoryList(AmazonPages.java:39)
+	at com.qa.testscripts.TC_AmazonSearchItemDDT_003.searchItemDDT(TC_AmazonSearchItemDDT_003.java:27)
+... Removed 29 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="searchItemDDT(Furniture, Wooden Tables)">
+                  </a> <!-- searchItemDDT(Furniture, Wooden Tables) -->
+                  <span class="method-name">searchItemDDT</span>
+                  <span class="parameters">(Furniture, Wooden Tables)</span>
+                  <div class="stack-trace">org.openqa.selenium.ElementNotInteractableException: Element &lt;option&gt; could not be scrolled into view
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;HBADT4950189&apos;, ip: &apos;10.104.65.195&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_221&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 78.7.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20210204185103, moz:geckodriverVersion: 0.28.0, moz:headless: false, moz:processID: 24968, moz:profile: C:\Users\mandulas\AppData\L..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 5516a206-5a79-4366-83c4-368c6e12bee3
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at org.openqa.selenium.support.ui.Select.setSelected(Select.java:311)
+	at org.openqa.selenium.support.ui.Select.selectByVisibleText(Select.java:116)
+	at com.qa.pages.AmazonPages.SetCategoryList(AmazonPages.java:39)
+	at com.qa.testscripts.TC_AmazonSearchItemDDT_003.searchItemDDT(TC_AmazonSearchItemDDT_003.java:27)
 ... Removed 29 stack frames
 </div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
           </div> <!-- suite-Test_Automation-class-failed -->
-          <div class="suite-Test_Automation-class-passed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">com.qa.testscripts.TC_AmazonSearchItem_001</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="searchItem">
-                  </a> <!-- searchItem -->
-                  <span class="method-name">searchItem</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Test_Automation-class-passed -->
-          <div class="suite-Test_Automation-class-passed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">com.qa.testscripts.TC_AmazonSearchItemDDT_003</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="searchItemDDT(Books, Da vinci Code)">
-                  </a> <!-- searchItemDDT(Books, Da vinci Code) -->
-                  <span class="method-name">searchItemDDT</span>
-                  <span class="parameters">(Books, Da vinci Code)</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="searchItemDDT(Furniture, Wooden table)">
-                  </a> <!-- searchItemDDT(Furniture, Wooden table) -->
-                  <span class="method-name">searchItemDDT</span>
-                  <span class="parameters">(Furniture, Wooden table)</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Test_Automation-class-passed -->
         </div> <!-- panel Test_Automation -->
         <div panel-name="test-xml-Test_Automation" class="panel">
           <div class="main-panel-header rounded-window-top">
@@ -284,30 +343,30 @@ data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
 data.addRows(5);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'searchItemDDT')
-data.setCell(0, 2, 'com.qa.testscripts.TC_AmazonSearchItemDDT_003')
-data.setCell(0, 3, 5012);
+data.setCell(0, 1, 'getFooterlinks')
+data.setCell(0, 2, 'com.qa.testscripts.TC_AmazonHomePage_002')
+data.setCell(0, 3, 806);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'searchItemDDT')
-data.setCell(1, 2, 'com.qa.testscripts.TC_AmazonSearchItemDDT_003')
-data.setCell(1, 3, 4578);
+data.setCell(1, 1, 'searchItem')
+data.setCell(1, 2, 'com.qa.testscripts.TC_AmazonSearchItem_001')
+data.setCell(1, 3, 527);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'searchItem')
-data.setCell(2, 2, 'com.qa.testscripts.TC_AmazonSearchItem_001')
-data.setCell(2, 3, 4303);
+data.setCell(2, 1, 'searchItemDDT')
+data.setCell(2, 2, 'com.qa.testscripts.TC_AmazonSearchItemDDT_003')
+data.setCell(2, 3, 132);
 data.setCell(3, 0, 3)
 data.setCell(3, 1, 'searchItemDDT')
 data.setCell(3, 2, 'com.qa.testscripts.TC_AmazonSearchItemDDT_003')
-data.setCell(3, 3, 2729);
+data.setCell(3, 3, 115);
 data.setCell(4, 0, 4)
-data.setCell(4, 1, 'getFooterlinks')
-data.setCell(4, 2, 'com.qa.testscripts.TC_AmazonHomePage_002')
-data.setCell(4, 3, 724);
+data.setCell(4, 1, 'searchItemDDT')
+data.setCell(4, 2, 'com.qa.testscripts.TC_AmazonSearchItemDDT_003')
+data.setCell(4, 3, 112);
 window.suiteTableData['Test_Automation']= { tableData: data, tableDiv: 'times-div-Test_Automation'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 17 seconds</span>
+              <span class="suite-total-time">Total running time: 1 seconds</span>
               <div id="times-div-Test_Automation">
               </div> <!-- times-div-Test_Automation -->
             </div> <!-- times-div -->
@@ -319,79 +378,9 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="reporter-method-div">
-              <span class="reporter-method-name">searchItemDDT(Books, Da vinci Code)</span>
-              <div class="reporter-method-output-div">
-                <span class="reporter-method-output">There are items displayed</span>
-                <span class="reporter-method-output">The Da Vinci Code: (Robert Langdon Book 2)</span>
-                <span class="reporter-method-output">The Da Vinci Code (Abridged Edition)</span>
-                <span class="reporter-method-output">Angels and Demons + The Da Vinci Code + The Lost Symbol(Set of 3 Books)</span>
-                <span class="reporter-method-output">Beyond Da Vinci Code: Pt. 3: Toward the Social Rejuvenation of Humankind, Understanding the Prevailing Capitalism as a Cult of Anti-christianity ... Capitalism as a Cult of Anti-christianity)</span>
-                <span class="reporter-method-output">Beyond Da Vinci Code: Pt. 2: Toward the Social Rejuvenation of Humankind, Understanding the Prevailing Capitalism as a Cult of Anti-christianity ... Capitalism as a Cult of Anti-christianity)</span>
-                <span class="reporter-method-output">The Da Vinci Code</span>
-                <span class="reporter-method-output">THE DA VINCI CODE : A QUEST FOR ANSWERS (Hindi) हिंदी</span>
-                <span class="reporter-method-output">DA VINCI CODE</span>
-                <span class="reporter-method-output">Zodiac</span>
-                <span class="reporter-method-output">The Da Vinci Code</span>
-                <span class="reporter-method-output">Da Vinci: El Codigo Secreto / the Secret Code</span>
-                <span class="reporter-method-output">The Da Vinci Code</span>
-                <span class="reporter-method-output">The da Vinci code</span>
-                <span class="reporter-method-output">Da vinci Code</span>
-                <span class="reporter-method-output">Da vinci code</span>
-                <span class="reporter-method-output">‫شيفرة دافنتشي‬ (Arabic Edition)</span>
-              </div> <!-- reporter-method-output-div -->
-            </div> <!-- reporter-method-div -->
-            <div class="reporter-method-div">
-              <span class="reporter-method-name">searchItemDDT(Furniture, Wooden table)</span>
-              <div class="reporter-method-output-div">
-                <span class="reporter-method-output">There are items displayed</span>
-                <span class="reporter-method-output">Brotherskart Wooden Mobile Stand for Table Home Mobile and Tablet Stand for Table Bed Office</span>
-                <span class="reporter-method-output">ANGEL Wooden Mobile /Tablet Holder for Desk and Table - Wood Mobile Stand - Can Hold Any Size Mobile , Can Be Used in Office Or Home (Natural Teak Wood)</span>
-                <span class="reporter-method-output">Jk Handicrafts Wooden Mobile Phone Holder for Desk and Table - Sheesham Wood Mobile Stand - Can Hold Any Size Mobile</span>
-                <span class="reporter-method-output">VAH Three Phone with Pen Wooden Mobile Stand/Holder for Smartphone (Wooden)</span>
-                <span class="reporter-method-output">W&M Handicrafts Wooden Mobile Phone/Tablet Holder for Desk and Table - Wood Mobile Stand - Can Hold Any Size Mobile - Can Be Used in Office Or Home (Natural Wooden)</span>
-                <span class="reporter-method-output">Shubh Empire Teak Wood Elephant Multi-Angle Universal Adjustable Wooden Mobile Stand For Table|Mobile Holder For Bed|Cradle for Tablets (Up to 12.9 inch)|Cell Phone Holder Stand For All Android and iPhone Ipad</span>
-                <span class="reporter-method-output">Mobile Stand for Table and Bed, Cell Phone Stand Tablet Stand Cell Phone Stand Holder for Desk Cell Phone Stand Wooden Cell Phone Stand/Mobile Stand For Online Classes by AppyNature- Mobile Phone Holder Table</span>
-                <span class="reporter-method-output">VAH Triangle Design Wooden Mobile Stand/Phone Holder/Table Stand for Smartphone (Wooden)</span>
-                <span class="reporter-method-output">Wooden Mobile Stand, Natural Mobile Stand for Table, Handmade Mobile Stand for Bed, Card/Cell Phone Holder. Universal Size for All Mobiles and Small Tabs</span>
-                <span class="reporter-method-output">MS ENTERPRISE Wooden Adjustable Mobile Cell Phone Stand Holder for Table Desk with Big Back Support to Hold All Small Medium of iPhone, iPad, Smartphones, Tablets, Tabs, Kindle - Indian (White)</span>
-                <span class="reporter-method-output">Cute Dog Cell Phone Holder Desk Stand, Wooden Smartphone Desk Holder for iPhone Xs/Max/XR/X/8/7 Plus/Google Pixel/Samsung Galaxy Note</span>
-                <span class="reporter-method-output">VAH Round Design Wooden Mobile Stand/Phone Holder/Table Stand for Smartphone (Wooden)</span>
-                <span class="reporter-method-output">Xech Pen Stand Speaker with Changing Lights Stationery Holder with Wireless Bluetooth Speaker Supports AUX USB Pendrive TF Card Micro SD Card for Office Table Desk Pencil Holder Organizer (White)</span>
-                <span class="reporter-method-output">EYUVAA LABEL Premium Smart Foldable Mobile Stand for Table and Bed, Height Adjustable Universal Phone Holder for All Smartphones & Tablet (Black)</span>
-                <span class="reporter-method-output">KGN HANDICRAFT Nagina Shilp Craft Wooden Mobile Stand and Holder for Table</span>
-                <span class="reporter-method-output">KASTHING Dog Style Wooden Phone Stand for Home. Phone Holder for iPhone, Android, Samsung, OnePlus, Xiaomi. Perfect for Bed, Office, Home, Gift, and Desktop. Gold Color.</span>
-                <span class="reporter-method-output">Aakarshan Wooden Mobile Stand for Home | Cell Phone and Tablet Holder | Universal Size for All Mobiles and Small Tablets Can Be Used in Office or Home (Brown)</span>
-                <span class="reporter-method-output">Mars Traders Wooden Mobile Phone Holder for Desk and Table - Sheesham Wood Mobile Stand - Can Hold Any Size Mobile for Decoration and Gifts</span>
-                <span class="reporter-method-output">Mobile Stand for Table Cell Phone Stand Tablet Stand Cell Phone Stand Holder for Desk Cell Phone Stand Wooden Cell Phone Stand to take Online Classes by AppyNature- Mobile Phone Holder Table</span>
-                <span class="reporter-method-output">PETALUMA Steam Beach Wooden Mobile Phone Holder for desk and Table Compatible with any size Mobile. A Handmade Wooden Mobile Phone Stand,Different poses and Handmade Animal Phone Holder for All Smart Phone Desk Decoration(Tai chi)</span>
-                <span class="reporter-method-output">MD Proelectra PD Craft0zone - Desktop Cell Phone Stand Tablet Stand, Wooden Stand Holder for Mobile Phone and Tablet (Up to 10.1 inch) - Wood</span>
-                <span class="reporter-method-output">PETALUMA Steam Beach Wooden Mobile Phone Holder for desk and Table. Compatible with any size Mobile. A Handmade Wooden Mobile Phone Stand,Different poses and Handmade Animal Phone Holder for All Smart Phone Desk Decoration (Walker)</span>
-                <span class="reporter-method-output">Wooden Mobile Stand for Mobiles and Tabs</span>
-                <span class="reporter-method-output">MACNGRID Wooden Bedside Mini Cute Phone Stand Shelf for Bed,Table, Office, Home College Dorm Room Clip On Nightstand for Students Bedside Phone Holder Stand Mount (Pack of 01)</span>
-                <span class="reporter-method-output">KASTHING KASTHING Wood Bizzy Man with Chair Multi-Angle Universal Adjustable Wooden Mobile Stand for Table | (Up to 12.9 inches) | Cell Phone Holder Stand for All Android and iPhone Ipad. Gold Color</span>
-                <span class="reporter-method-output">EUDEN Wooden Bedside Mini Cute Phone Stand Shelf for Bed,Table, Office, Home College Dorm Room Clip On Nightstand for Students Bedside Phone Holder Stand Mount (Pack of 01)</span>
-                <span class="reporter-method-output">Proffisy Phone Stand Height Angle Adjustable Cell Phone Stand Phone Holder for Desk Compatible with OnePlus Redmi Samsung Mi Oppo Vivo iPhone12 Mini 11 Pro Xs Xr X 8 7 Plus, All Smartphones (Black)</span>
-                <span class="reporter-method-output">ORICO 7 Channel Desk Cable Clips Cable Management Cord Organizer Wire Cord Holder for Power Cords and Charging Accessory Cables, Mouse Cable, PC, Office and Home</span>
-                <span class="reporter-method-output">HIKER Desktop Cell Phone Holder Mobile Stand & Tablet Phone Stand, Aluminum Charging Phone Stand for All Cell Phones and Tablet (up to 10.1 inch) … (Silver)</span>
-                <span class="reporter-method-output">WeCool Moonwalk M1 True Wireless Earbuds (TWS) IPX 5 and Digital Display Charging Case, Bluetooth Earphones with Mic for Calls and HD Stereo Music</span>
-              </div> <!-- reporter-method-output-div -->
-            </div> <!-- reporter-method-div -->
-            <div class="reporter-method-div">
-              <span class="reporter-method-name">searchItem</span>
-              <div class="reporter-method-output-div">
-                <span class="reporter-method-output">Title is correct</span>
-              </div> <!-- reporter-method-output-div -->
-            </div> <!-- reporter-method-div -->
-            <div class="reporter-method-div">
               <span class="reporter-method-name">getFooterlinks</span>
               <div class="reporter-method-output-div">
                 <span class="reporter-method-output">It is not as expeted</span>
-              </div> <!-- reporter-method-output-div -->
-            </div> <!-- reporter-method-div -->
-            <div class="reporter-method-div">
-              <span class="reporter-method-name">searchItemDDT(Electronics, Mobile phones)</span>
-              <div class="reporter-method-output-div">
-                <span class="reporter-method-output">There are no items displayed</span>
               </div> <!-- reporter-method-output-div -->
             </div> <!-- reporter-method-div -->
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -416,73 +405,79 @@ return data;
               </div> <!-- configuration-class before -->
               <div class="configuration-method before">
                 <span class="method-name">loadPages</span>
-                <span class="method-start">13119 ms</span>
+                <span class="method-start">14076 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
+                <img src="failed.png">
+                </img>
                 <span class="method-name">searchItem</span>
-                <span class="method-start">13229 ms</span>
+                <span class="method-start">14218 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">17560 ms</span>
+                <span class="method-start">14856 ms</span>
               </div> <!-- configuration-class after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.qa.testscripts.TC_AmazonHomePage_002</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">setUp(firefox)</span>
-                <span class="method-start">19547 ms</span>
+                <span class="method-start">17670 ms</span>
               </div> <!-- configuration-class before -->
               <div class="configuration-method before">
                 <span class="method-name">loadPages</span>
-                <span class="method-start">32036 ms</span>
+                <span class="method-start">29186 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
                 <span class="method-name">getFooterlinks</span>
-                <span class="method-start">32037 ms</span>
+                <span class="method-start">29187 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">32781 ms</span>
+                <span class="method-start">30016 ms</span>
               </div> <!-- configuration-class after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.qa.testscripts.TC_AmazonSearchItemDDT_003</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">setUp(firefox)</span>
-                <span class="method-start">34634 ms</span>
+                <span class="method-start">32270 ms</span>
               </div> <!-- configuration-class before -->
               <div class="configuration-method before">
                 <span class="method-name">loadPages</span>
-                <span class="method-start">49041 ms</span>
+                <span class="method-start">45292 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
-                <span class="method-name">searchItemDDT(Books, Da vinci Code)</span>
-                <span class="method-start">49042 ms</span>
+                <img src="failed.png">
+                </img>
+                <span class="method-name">searchItemDDT(Books, Da vinci code)</span>
+                <span class="method-start">45293 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method before">
                 <span class="method-name">loadPages</span>
-                <span class="method-start">54056 ms</span>
+                <span class="method-start">45431 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">searchItemDDT(Furniture, Wooden Tables)</span>
+                <span class="method-start">45433 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">loadPages</span>
+                <span class="method-start">45554 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
                 <span class="method-name">searchItemDDT(Electronics, Mobile phones)</span>
-                <span class="method-start">54058 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-method before">
-                <span class="method-name">loadPages</span>
-                <span class="method-start">58643 ms</span>
-              </div> <!-- configuration-method before -->
-              <div class="test-method">
-                <span class="method-name">searchItemDDT(Furniture, Wooden table)</span>
-                <span class="method-start">58644 ms</span>
+                <span class="method-start">45555 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">61375 ms</span>
+                <span class="method-start">45677 ms</span>
               </div> <!-- configuration-class after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

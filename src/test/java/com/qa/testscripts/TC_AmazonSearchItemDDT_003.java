@@ -24,7 +24,7 @@ AmazonPages AmazonOR;
 	@Test(dataProvider="DataSource")
 	public void searchItemDDT(String category, String itemname) throws IOException {
 		
-		AmazonOR.SetCategoryList(category);
+		//AmazonOR.SetCategoryList(category);
 		AmazonOR.setSearchInput(itemname);
 		AmazonOR.setMagnifierBtn();
 		
@@ -49,7 +49,7 @@ AmazonPages AmazonOR;
 	@DataProvider(name="DataSource")
 	public String[][] getData() throws IOException {
 		
-		String xlPath = "D:\\SeleniumTraining\\com.qa.devlabs.selenium\\src\\test\\java\\com\\qa\\testData\\InputData.xlsx";
+		String xlPath = "C:\\Users\\mandulas\\eclipse-workspace\\com.qa.devlabs.selenium\\src\\test\\java\\com\\qa\\testdata\\InputData.xlsx";
 		String xlSheet = "Sheet2";
 		int rowCount = excelUtility.getRowCount(xlPath, xlSheet);
 		int cellCount = excelUtility.getCellCount(xlPath, xlSheet, 1);
